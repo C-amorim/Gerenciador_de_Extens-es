@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Extensões</title>
+</head>
+<body class="tema-claro">
+  <header>
+    <div class="cabecalho">
+      <img class="cabecalho_logo" src="assets/images/logo.svg" alt="logo" />
+      <button id="mudar-tema" class="cabecalho_botao">
+        <img id="icone-tema" class="cabecalho_botao_icone" src="assets/images/icon-sun.svg" alt="mudar tema" />
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="sessao_pesquisa">
+      <h2 class="sessao_subtitulo">Lista de Extensões</h2>
+      <div class="sessao_opcoes">
+        <button class="sessao_opcoes_botoes">Todos</button>
+        <button class="sessao_opcoes_botoes">Ativos</button>
+        <button class="sessao_opcoes_botoes">Inativos</button>
+      </div>
+    </section>
+
+    <section class="sessao_lista">
+      <ul class="sessao_lista_cards"></ul>
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script src="data.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
