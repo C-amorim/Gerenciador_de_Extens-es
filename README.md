@@ -30,7 +30,6 @@ Ideal para quem gosta de manter o ambiente de desenvolvimento ou navegação lim
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python** (automação, scripts)
 - **HTML5 & CSS3** (interface)
 - **JavaScript** (interatividade)
 - **Hospedagem:** [Vercel](https://vercel.com/)
